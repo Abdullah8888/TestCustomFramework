@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/Abdullah8888/TestCustomFramework'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Abdullah8888' => 'abdullahijimoh3.ja@gmail.com' }
-  s.source           = { :git => 'https://github.com/orcundeniz/ODCustomFramework.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Abdullah8888/TestCustomFramework.git', :tag => s.version.to_s }
   s.ios.deployment_target = '12.0'
   s.swift_version = ['5.0', '5.1', '5.2']
   s.source_files = 'TestCustomFramework/Classes/**/*'
