@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'TestCustomFramework_Example' do
+  pod 'TestCustomFramework', :path => '../'
+
+  target 'TestCustomFramework_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
