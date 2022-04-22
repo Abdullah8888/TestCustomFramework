@@ -16,3 +16,23 @@ open class TestCustomFramework {
         print("Configuring framwork for all the three DM ")
     }
 }
+
+open class TestCustomFramework2 {
+    
+    
+    public init() {}
+    
+    open func doSomething2() {
+        print("Configuring framwork for all the three DM ")
+    }
+}
+
+open class TestCustomFramework3 {
+    
+    
+    public init() {}
+    
+    open func doSomething3() {
+        print("Configuring framwork for all the three DM ")
+    }
+}
