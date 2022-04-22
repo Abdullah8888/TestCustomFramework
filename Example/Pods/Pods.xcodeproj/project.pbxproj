@@ -11,6 +11,7 @@
 		754423AAC55CD5897F277AB9CB84FE9A /* TestCustomFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9293B38CD3A68CEFACAC618FE293089 /* TestCustomFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AFC7E32150A25BB1394EE9A8332210C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		B8E0184D2812338900CD3450 /* TestCustomFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E0184C2812338900CD3450 /* TestCustomFramework.swift */; };
+		B8E0188D281246FC00CD3450 /* MyCustomFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E0188C281246FC00CD3450 /* MyCustomFramework.swift */; };
 		CB218C77347408779D2303EDB39FC93B /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F08BAB8F1DB09FB741F1DF1B8A9910C /* ReplaceMe.swift */; };
 		CB2E79D73AB19798A1909796D02417D5 /* Pods-TestCustomFramework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 143577CAF844C70ADF5A9110E08660AB /* Pods-TestCustomFramework_Example-dummy.m */; };
 		D658A84C95EBB7FA4770B546E59A8B06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -66,6 +67,7 @@
 		AD7C87BE0E77A3FFF160C62A51D76C40 /* Pods-TestCustomFramework_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestCustomFramework_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B6095C5FA0F275DDFBBDAA76AB76E3A5 /* Pods-TestCustomFramework_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestCustomFramework_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B8E0184C2812338900CD3450 /* TestCustomFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomFramework.swift; sourceTree = "<group>"; };
+		B8E0188C281246FC00CD3450 /* MyCustomFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MyCustomFramework.swift; path = TestCustomFramework/Classes/MyCustomFramework.swift; sourceTree = "<group>"; };
 		C2A2F8E87C59A1EF7DC1FF0D070772F1 /* TestCustomFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TestCustomFramework-Info.plist"; sourceTree = "<group>"; };
 		C7DB948FC3FCC61A0C518E7EA9AE1BE1 /* Pods-TestCustomFramework_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestCustomFramework_Example.modulemap"; sourceTree = "<group>"; };
 		CEBB926E5590B951067656E0F487DF79 /* Pods_TestCustomFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestCustomFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -149,6 +151,7 @@
 				93D7C25DB61E04A81AE7180A6B910FC2 /* Pod */,
 				74C86859F22B476942E5FE6694FAD1B3 /* Support Files */,
 				B8E0184C2812338900CD3450 /* TestCustomFramework.swift */,
+				B8E0188C281246FC00CD3450 /* MyCustomFramework.swift */,
 			);
 			name = TestCustomFramework;
 			path = ../..;
@@ -371,6 +374,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB218C77347408779D2303EDB39FC93B /* ReplaceMe.swift in Sources */,
+				B8E0188D281246FC00CD3450 /* MyCustomFramework.swift in Sources */,
 				FA7AE1EDC7834497C6723CBC7EDD7476 /* TestCustomFramework-dummy.m in Sources */,
 				B8E0184D2812338900CD3450 /* TestCustomFramework.swift in Sources */,
 			);

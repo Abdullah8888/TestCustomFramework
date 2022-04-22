@@ -23,6 +23,15 @@ class ViewController: UIViewController {
         let framework3 = TestCustomFramework3()
         framework3.doSomething3()
         
+        let myFramework = MyCustomFramework()
+        myFramework.doSomething()
+        
+        let myFramework2 = MyCustomFramework2()
+        myFramework2.doSomething2()
+        
+        let myFramework3 = MyCustomFramework3()
+        myFramework3.doSomething3()
+        
     }
 
     override func didReceiveMemoryWarning() {
