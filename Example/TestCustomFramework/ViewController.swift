@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import TestCustomFramework
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let framework = TestCustomFramework()
+        framework.doSomething()
+        
     }
 
     override func didReceiveMemoryWarning() {
