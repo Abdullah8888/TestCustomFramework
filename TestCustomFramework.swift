@@ -27,12 +27,12 @@ open class TestCustomFramework2 {
     }
 }
 
-open class TestCustomFramework3 {
+public class TestCustomFramework3 {
     
     
     public init() {}
     
-    open func doSomething3() {
+    public func doSomething3() {
         print("Configuring framwork for all the three DM ")
     }
 }
