@@ -1,0 +1,6 @@
+framework module TestCustomFramework {
+  umbrella header "TestCustomFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}
