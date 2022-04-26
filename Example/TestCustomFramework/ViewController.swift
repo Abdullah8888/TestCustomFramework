@@ -14,21 +14,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let framework = TestCustomFramework()
-        framework.doSomething()
-        
-        let framework2 = TestCustomFramework2()
-        framework2.doSomething2()
-        
-        let framework3 = TestCustomFramework3()
-        framework3.doSomething3()
-        
+
         let myFramework = MyCustomFramework()
         myFramework.doSomething()
-        
+
         let myFramework2 = MyCustomFramework2()
         myFramework2.doSomething2()
-        
+
         let myFramework3 = MyCustomFramework3()
         myFramework3.doSomething3()
         

@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '12.0'
   s.swift_version = ['5.0', '5.1', '5.2']
   s.source_files = 'TestCustomFramework/Classes/**/*'
-  s.dependency  'AFNetworking'
+  s.dependency  'Alamofire'
 end

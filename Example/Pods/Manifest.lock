@@ -1,16 +1,24 @@
 PODS:
-  - TestCustomFramework (0.1.0)
+  - Alamofire (5.6.1)
+  - TestCustomFramework (0.1.4):
+    - Alamofire
 
 DEPENDENCIES:
+  - Alamofire (~> 5.6)
   - TestCustomFramework (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
 
 EXTERNAL SOURCES:
   TestCustomFramework:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TestCustomFramework: 68a1b5448615490e8b629b3fec9e19eb197df15f
+  Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
+  TestCustomFramework: dee29bd81b8a138272fe9b222c07347036c779fd
 
-PODFILE CHECKSUM: 07a3c171de482250d9204fd30a247b5071040dc9
+PODFILE CHECKSUM: 417c8d28260ce776f6b5d56b9914d708a7a52977
 
 COCOAPODS: 1.11.0

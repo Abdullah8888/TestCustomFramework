@@ -1,10 +1,10 @@
 use_frameworks!
 
-platform :ios, '9.0'
+platform :ios, '12.0'
 
 target 'TestCustomFramework_Example' do
   pod 'TestCustomFramework', :path => '../'
-
+  pod 'Alamofire', '~> 5.6'
   target 'TestCustomFramework_Tests' do
     inherit! :search_paths
 
